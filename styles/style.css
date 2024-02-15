@@ -146,6 +146,7 @@
     font-size: 24px;
     margin-bottom: 0px;
 }
+
 .left-side h3 {
     color: black;
     font-size: 48px;
@@ -170,8 +171,32 @@
 .right-side {
     width: 30%;
 }
-.right-side h1{
+
+.right-side h1 {
     color: red;
     font-size: 48px;
     margin-bottom: 0px;
+}
+
+.holyday-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.holyday-content {
+    width: 70%;
+}
+
+.holyday-title h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.holyday-title h1 {
+    font-size: 72px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
