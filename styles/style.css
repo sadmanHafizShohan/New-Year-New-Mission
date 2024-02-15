@@ -26,3 +26,33 @@
     font-size: 72px;
     margin-top: 0px;
 }
+.offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.offer-container h1 {
+    color: red;
+    font-size: 88px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.offer-container h6 {
+    color: red;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.offer-container h3 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.offer-content img {
+    height: 75%;
+    width: 75%;
+}
