@@ -195,88 +195,110 @@
     font-size: 24px;
     margin-bottom: 0px;
 }
+
 .holyday-title h1 {
     font-size: 72px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.holyday-title{
+
+.holyday-title {
     margin-bottom: 50px;
 }
-.image-container{
+
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.image1 img{
+
+.image1 img {
     height: 230px;
     width: 1080px;
     margin-top: 0px;
 }
-.image2{
+
+.image2 {
     display: flex;
     justify-content: right;
     align-items: end;
 }
-.image2 img{
+
+.image2 img {
     height: 300px;
     width: 300px;
     margin-bottom: -5px;
 }
-.image3 img{
+
+.image3 img {
     position: absolute;
     height: 450px;
     width: 500px;
 }
-.image4{
+
+.image4 {
     display: flex;
     justify-content: right;
     align-items: end;
 }
-.image4 img{
+
+.image4 img {
     position: absolute;
     height: 250px;
     width: 250px;
     margin-bottom: -22%;
     margin-right: +15%;
 }
-.portfolio-text-section{
+
+.portfolio-text-section {
     display: flex;
     justify-content: left;
     margin-top: 30px;
     margin-left: 60px;
 }
-.portfolio-text{
+
+.portfolio-text {
     width: 60%;
 }
-.portfolio-text h5{
+
+.portfolio-text h5 {
     color: red;
     font-size: 24px;
     margin-bottom: 0px;
 }
-.portfolio-text h1{
+
+.portfolio-text h1 {
     font-size: 48px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.portfolio-image-section{
+
+.portfolio-image-section {
     display: flex;
     justify-content: left;
     align-items: center;
     margin-left: 60px;
-}
-.portfolio-image{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    width: 80%;
-}
-.portfolio-image img{
-    height: 350px;
-    width: 350px;
+    margin-top: 20px;
 }
 
-.Subscribe-section{
+.portfolio-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    cursor: pointer;
+}
+
+.portfolio-image img {
+    height: 300px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-image img:hover {
+    transform: scale(1.1);
+}
+
+.Subscribe-section {
     background-color: #FFF2F2;
     border: 1px solid black;
     border-radius: 10px;
@@ -284,29 +306,31 @@
     margin-left: 60px;
     margin-right: 60px;
 }
-.Subscribe-content{
-    
-}
-.Subscribe{
+
+.Subscribe {
     text-align: center;
     padding: 30px;
 }
-.Subscribe img{
+
+.Subscribe img {
     height: 100px;
     width: 100px;
 }
-.Subscribe h3{
+
+.Subscribe h3 {
     font-size: 48px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.input-email input{
+
+.input-email input {
     padding: 15px 100px;
     border: none;
     border-radius: 50px;
     font-size: 18px;
 }
-.input-email button{
+
+.input-email button {
     background-color: red;
     color: white;
     padding: 14px 25px;
@@ -314,4 +338,70 @@
     border-radius: 0px 50px 50px 0;
     font-size: 20px;
     margin-left: -30px;
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-section-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.call,
+.website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.call img {
+    height: 20px;
+    width: 20px;
+}
+
+.website img {
+    height: 20px;
+    width: 20px;
+}
+.footer-section hr {
+    width: 70%;
+}
+.contact-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contact-img img{   
+    width: 50px;
+    height: 50px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.footer-bottom button {
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
