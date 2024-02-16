@@ -1,407 +1,420 @@
-.banner {
-    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(0, 0, 0, 0.1)), url(../images/BannerImage.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    height: 600px;
-    margin-left: 50px;
-    margin-right: 50px;
-    /* Center content */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* Text color */
-    color: white;
-}
+ /* Banner Section CSS */
+ .banner {
+     background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(0, 0, 0, 0.1)), url(../images/BannerImage.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+     height: 600px;
+     margin-left: 50px;
+     margin-right: 50px;
+     /* Center content */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     /* Text color */
+     color: white;
+ }
 
-.banner-content h3 {
-    font-size: 32px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+ .banner-content h3 {
+     font-size: 32px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
 
-.banner-content h1 {
-    font-size: 72px;
-    margin-top: 0px;
-}
+ .banner-content h1 {
+     font-size: 72px;
+     margin-top: 0px;
+ }
 
-.offer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+ /* Offer Section CSS */
+ .offer-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
 
-.offer-container h1 {
-    color: red;
-    font-size: 88px;
-    font-weight: 900;
-    margin-bottom: 25px;
-}
+ .offer-container h1 {
+     color: red;
+     font-size: 88px;
+     font-weight: 900;
+     margin-bottom: 25px;
+ }
 
-.offer-container h6 {
-    color: red;
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 3px;
-}
+ .offer-container h6 {
+     color: red;
+     font-size: 24px;
+     margin-top: 0;
+     margin-bottom: 3px;
+ }
 
-.offer-container h3 {
-    font-size: 48px;
-    margin-top: 0;
-}
+ .offer-container h3 {
+     font-size: 48px;
+     margin-top: 0;
+ }
 
-.offer-content img {
-    height: 75%;
-    width: 75%;
-}
+ .offer-content img {
+     height: 75%;
+     width: 75%;
+ }
 
-.midnight-party {
-    background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(0, 0, 0, 0.1)), url(../images/Vectorrr.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    height: 600px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    /* Center content */
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    /* text color */
-    color: white;
-}
+ /* Welcome to midnight party section CSS */
+ .midnight-party {
+     background: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(0, 0, 0, 0.1)), url(../images/Vectorrr.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-radius: 10px;
+     height: 600px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-top: 50px;
+     /* Center content */
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     /* text color */
+     color: white;
+ }
 
-.midnight-party-container {
-    padding: 0 100px;
-}
+ .midnight-party-container {
+     padding: 0 100px;
+ }
 
-.midnight-party-container h1 {
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
+ .midnight-party-container h1 {
+     font-size: 64px;
+     font-weight: 700;
+     margin-bottom: 0;
+ }
 
-.midnight-party-container h1 {
-    margin-top: 0;
-}
+ .midnight-party-container h1 {
+     margin-top: 0;
+ }
 
-.midnight-party-container button {
-    background: black;
-    font-size: 20px;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 20px;
-    cursor: pointer;
-}
+ .midnight-party-container button {
+     background: black;
+     font-size: 20px;
+     color: white;
+     padding: 15px 25px;
+     border-radius: 20px;
+     cursor: pointer;
+ }
 
-.join-now {
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0));
-    border-radius: 10px;
-    border: 1px solid black;
-    height: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    /* Center content */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* Text color */
-    color: black;
-    font-size: 30px;
-}
+ /* Join Now Section CSS */
+ .join-now {
+     background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0));
+     border-radius: 10px;
+     border: 1px solid black;
+     height: 400px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     /* Center content */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     /* Text color */
+     color: black;
+     font-size: 30px;
+ }
 
-.join-now-content button {
-    background-color: red;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
+ .join-now-content button {
+     background-color: red;
+     color: white;
+     font-size: 20px;
+     font-weight: 700;
+     padding: 15px 25px;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+ }
 
-.coming-soon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+ /* coming soon section CSS */
+ .coming-soon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 50px;
+     margin-right: 50px;
+ }
 
-.left-side {
-    width: 30%;
-}
+ .left-side {
+     width: 30%;
+ }
 
-.left-side h1 {
-    color: red;
-    font-size: 24px;
-    margin-bottom: 0px;
-}
+ .left-side h1 {
+     color: red;
+     font-size: 24px;
+     margin-bottom: 0px;
+ }
 
-.left-side h3 {
-    color: black;
-    font-size: 48px;
-    margin-top: 2px;
-    margin-bottom: 0px;
-}
+ .left-side h3 {
+     color: black;
+     font-size: 48px;
+     margin-top: 2px;
+     margin-bottom: 0px;
+ }
 
-.middle-side {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
+ .middle-side {
+     width: 30%;
+     display: flex;
+     justify-content: center;
+ }
 
-.middle-side img {
-    border: 10px solid red;
-    border-radius: 50%;
-    padding: 15px;
-    height: 70%;
-    width: 70%;
-}
+ .middle-side img {
+     border: 10px solid red;
+     border-radius: 50%;
+     padding: 15px;
+     height: 70%;
+     width: 70%;
+ }
 
-.right-side {
-    width: 30%;
-}
+ .right-side {
+     width: 30%;
+ }
 
-.right-side h1 {
-    color: red;
-    font-size: 48px;
-    margin-bottom: 0px;
-}
+ .right-side h1 {
+     color: red;
+     font-size: 48px;
+     margin-bottom: 0px;
+ }
 
-.holyday-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-    width: 100%;
-}
+ /* Holyday sell text section CSS */
+ .holyday-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 50px;
+     width: 100%;
+ }
 
-.holyday-content {
-    width: 70%;
-}
+ .holyday-content {
+     width: 70%;
+ }
 
-.holyday-title h4 {
-    font-size: 24px;
-    margin-bottom: 0px;
-}
+ .holyday-title h4 {
+     font-size: 24px;
+     margin-bottom: 0px;
+ }
 
-.holyday-title h1 {
-    font-size: 72px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+ .holyday-title h1 {
+     font-size: 72px;
+     margin-bottom: 0px;
+     margin-top: 0px;
+ }
 
-.holyday-title {
-    margin-bottom: 50px;
-}
+ .holyday-title {
+     margin-bottom: 50px;
+ }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ .image-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.image1 img {
-    height: 230px;
-    width: 1080px;
-    margin-top: 0px;
-}
+ .image1 img {
+     height: 230px;
+     width: 1080px;
+     margin-top: 0px;
+ }
 
-.image2 {
-    display: flex;
-    justify-content: right;
-    align-items: end;
-}
+ .image2 {
+     display: flex;
+     justify-content: right;
+     align-items: end;
+ }
 
-.image2 img {
-    height: 300px;
-    width: 300px;
-    margin-bottom: -5px;
-}
+ .image2 img {
+     height: 300px;
+     width: 300px;
+     margin-bottom: -5px;
+ }
 
-.image3 img {
-    position: absolute;
-    height: 450px;
-    width: 500px;
-}
+ .image3 img {
+     position: absolute;
+     height: 450px;
+     width: 500px;
+ }
 
-.image4 {
-    display: flex;
-    justify-content: right;
-    align-items: end;
-}
+ .image4 {
+     display: flex;
+     justify-content: right;
+     align-items: end;
+ }
 
-.image4 img {
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    margin-bottom: -22%;
-    margin-right: +15%;
-}
+ .image4 img {
+     position: absolute;
+     height: 250px;
+     width: 250px;
+     margin-bottom: -22%;
+     margin-right: +15%;
+ }
 
-.portfolio-text-section {
-    display: flex;
-    justify-content: left;
-    margin-top: 30px;
-    margin-left: 60px;
-}
+ /* Awesome portfolio text section CSS */
+ .portfolio-text-section {
+     display: flex;
+     justify-content: left;
+     margin-top: 30px;
+     margin-left: 60px;
+ }
 
-.portfolio-text {
-    width: 60%;
-}
+ .portfolio-text {
+     width: 60%;
+ }
 
-.portfolio-text h5 {
-    color: red;
-    font-size: 24px;
-    margin-bottom: 0px;
-}
+ .portfolio-text h5 {
+     color: red;
+     font-size: 24px;
+     margin-bottom: 0px;
+ }
 
-.portfolio-text h1 {
-    font-size: 48px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+ .portfolio-text h1 {
+     font-size: 48px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
 
-.portfolio-image-section {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-left: 60px;
-    margin-top: 20px;
-}
+ .portfolio-image-section {
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     margin-left: 60px;
+     margin-top: 20px;
+ }
 
-.portfolio-image {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    cursor: pointer;
-}
+ .portfolio-image {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
+     cursor: pointer;
+ }
 
-.portfolio-image img {
-    height: 300px;
-    width: 300px;
-    transition: transform 0.3s ease-in-out;
-}
+ .portfolio-image img {
+     height: 300px;
+     width: 300px;
+     transition: transform 0.3s ease-in-out;
+ }
 
-.portfolio-image img:hover {
-    transform: scale(1.1);
-}
+ .portfolio-image img:hover {
+     transform: scale(1.1);
+ }
 
-.Subscribe-section {
-    background-color: #FFF2F2;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
+ /* Subscribe section CSS */
+ .Subscribe-section {
+     background-color: #FFF2F2;
+     border: 1px solid black;
+     border-radius: 10px;
+     margin-top: 50px;
+     margin-left: 60px;
+     margin-right: 60px;
+ }
 
-.Subscribe {
-    text-align: center;
-    padding: 30px;
-}
+ .Subscribe {
+     text-align: center;
+     padding: 30px;
+ }
 
-.Subscribe img {
-    height: 100px;
-    width: 100px;
-}
+ .Subscribe img {
+     height: 100px;
+     width: 100px;
+ }
 
-.Subscribe h3 {
-    font-size: 48px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+ .Subscribe h3 {
+     font-size: 48px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
 
-.input-email input {
-    padding: 15px 100px;
-    border: none;
-    border-radius: 50px;
-    font-size: 18px;
-}
+ .input-email input {
+     padding: 15px 100px;
+     border: none;
+     border-radius: 50px;
+     font-size: 18px;
+ }
 
-.input-email button {
-    background-color: red;
-    color: white;
-    padding: 14px 25px;
-    border: none;
-    border-radius: 0px 50px 50px 0;
-    font-size: 20px;
-    margin-left: -30px;
-}
+ .input-email button {
+     background-color: red;
+     color: white;
+     padding: 14px 25px;
+     border: none;
+     border-radius: 0px 50px 50px 0;
+     font-size: 20px;
+     margin-left: -30px;
+ }
 
-.footer-section {
-    background-color: black;
-    color: white;
-    font-size: 24px;
-}
+ /* Footer Section CSS */
+ .footer-section {
+     background-color: black;
+     color: white;
+     font-size: 24px;
+ }
 
-.footer-section-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-    margin-top: 50px;
-}
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
+ .footer-section-container {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     height: 100%;
+     margin-top: 50px;
+ }
 
-.call,
-.website {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-}
+ .contact {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: start;
+ }
 
-.call img {
-    height: 20px;
-    width: 20px;
-}
+ .call,
+ .website {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 20px;
+ }
 
-.website img {
-    height: 20px;
-    width: 20px;
-}
-.footer-section hr {
-    width: 70%;
-}
-.contact-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.contact-img img{   
-    width: 50px;
-    height: 50px;
-}
+ .call img {
+     height: 20px;
+     width: 20px;
+ }
 
-.footer-bottom {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 50px;
-}
+ .website img {
+     height: 20px;
+     width: 20px;
+ }
 
-.footer-bottom button {
-    background-color: black;
-    font-size: 24px;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+ .footer-section hr {
+     width: 70%;
+ }
+
+ .contact-img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .contact-img img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .footer-bottom {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding-bottom: 50px;
+ }
+
+ .footer-bottom button {
+     background-color: black;
+     font-size: 24px;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
