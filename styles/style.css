@@ -240,3 +240,38 @@
     margin-bottom: -22%;
     margin-right: +15%;
 }
+.portfolio-text-section{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.portfolio-text{
+    width: 60%;
+}
+.portfolio-text h5{
+    color: red;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.portfolio-text h1{
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.portfolio-image-section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 60px;
+}
+.portfolio-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 80%;
+}
+.portfolio-image img{
+    height: 350px;
+    width: 350px;
+}
