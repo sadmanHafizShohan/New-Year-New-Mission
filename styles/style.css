@@ -275,3 +275,43 @@
     height: 350px;
     width: 350px;
 }
+
+.Subscribe-section{
+    background-color: #FFF2F2;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.Subscribe-content{
+    
+}
+.Subscribe{
+    text-align: center;
+    padding: 30px;
+}
+.Subscribe img{
+    height: 100px;
+    width: 100px;
+}
+.Subscribe h3{
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.input-email input{
+    padding: 15px 100px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.input-email button{
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 0px 50px 50px 0;
+    font-size: 20px;
+    margin-left: -30px;
+}
